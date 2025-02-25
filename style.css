@@ -106,10 +106,16 @@ h2 {
 }
 
 .profile_image {
-  width: 550px;
-  height: fit-content;
-  vertical-align: middle;
-  margin: 5px;
+    border-radius: 15px; /* Rounded corners */
+    border: 5px solid #fff; /* White frame */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle 3D shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth effect */
+}
+
+/* Hover effect */
+.profile_image:hover {
+    transform: scale(1.05); /* Slight zoom-in effect */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
 
 /* Skills */
