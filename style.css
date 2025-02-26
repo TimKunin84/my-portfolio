@@ -292,6 +292,7 @@ h2 {
   width: 2in;
   font-size: 20px;
   margin-left: 25%;
+  box-shadow: 0 3px 10px gray; 
 }
 
 .popup button:hover {
@@ -303,6 +304,7 @@ h2 {
   text-align: center;
   cursor: pointer;
   margin-left: 25%;
+  box-shadow: 0 3px 10px gray; 
 }
 
 /* Recommendation Form */
