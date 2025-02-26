@@ -273,7 +273,7 @@ h2 {
   position: fixed;
   /* padding: 30px; */
   visibility: hidden;
-  box-shadow: 0 3px 10px gray; 
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.5);
 }
 
 .popup img {
@@ -292,7 +292,7 @@ h2 {
   width: 2in;
   font-size: 20px;
   margin-left: 25%;
-  box-shadow: 0 3px 10px gray; 
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.5); 
 }
 
 .popup button:hover {
@@ -304,7 +304,7 @@ h2 {
   text-align: center;
   cursor: pointer;
   margin-left: 25%;
-  box-shadow: 0 3px 10px gray; 
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.5); 
 }
 
 /* Recommendation Form */
