@@ -214,10 +214,13 @@ h2 {
 .all_recommendations {
   display: flex;
   align-items: center;
-  margin-left: 1in;
+  justify-content: center; /* This will center-align the recommendations */
+  margin-left: auto; /* Remove the fixed left margin */
+  margin-right: auto; /* Ensures centering */
   flex-direction: row;
-  flex-flow: wrap;
+  flex-wrap: wrap; /* Allows wrapping if needed */
   padding: 20px;
+  max-width: 80%; /* Ensures it doesn’t stretch too much */
 }
 
 .recommendation {
