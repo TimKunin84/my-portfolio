@@ -273,6 +273,7 @@ h2 {
   position: fixed;
   /* padding: 30px; */
   visibility: hidden;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.3); 
 }
 
 .popup img {
