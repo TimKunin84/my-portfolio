@@ -5,7 +5,7 @@ body {
 /* Navigation Bar */
 
 #home {
-  background-color:  #7600bc;
+  background-color:  #004d26;
   padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
@@ -16,7 +16,7 @@ body {
  }
 
 .topmenu {
-  color: lightgray;
+  color: #a0a0a0;
   margin: 10px;
   padding: 20px;
   font-size: 20px;
@@ -37,7 +37,7 @@ body {
 .profile_name {
   float: left;
   padding-left: 2cm;
-  color: lightgray;
+  color: #a0a0a0;
   font-size: 30px;
 }
 
@@ -62,7 +62,7 @@ h2 {
   font-size: 50px;
   text-align: center;
   float: left;
-  color: #7600bc;
+  color: #004d26;
   margin: 30px;
   margin-left: 60px;
   margin-top: 40px;
@@ -96,12 +96,12 @@ h2 {
 #about-me h1 {
   font-size: 65px;
   margin-top: 90px;
-  color: #7600bc;
+  color: #004d26;
 }
 
 #about-me p {
   font-size: 25px;
-  color: rgb(128, 128, 128);
+  color: #a0a0a0;
   margin-top: -1cm;
 }
 
@@ -111,7 +111,7 @@ h2 {
     min-width: 120px; /* Prevents it from getting too small */
     height: auto; /* Maintain aspect ratio */
     border-radius: 15px; /* Rounded corners */
-    border: 5px solid #fff; /* White frame */
+    border: 5px solid #1e1e1e; /* White frame */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle 3D shadow */
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
@@ -199,7 +199,7 @@ h2 {
 }
 
 .projects-container hr {
-  border: 1px solid lightgray;
+  border: 1px solid #a0a0a0;
   width: 75%;
   margin-left: 5cm;
 }
@@ -235,7 +235,7 @@ h2 {
   text-align: left;
   width: 21.875rem;
   padding: 1rem;
-  background-color: #fff;
+  background-color: #1e1e1e;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
@@ -246,7 +246,7 @@ h2 {
 }
 
 .recommendation span {
-  color: #7600bc;
+  color: #004d26;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -257,7 +257,7 @@ h2 {
   width: 48px;
   height: 48px;
   border-radius: 100%;
-  background-color: #7600bc;
+  background-color: #004d26;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -287,9 +287,9 @@ h2 {
 }
 
 .popup button {
-  background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  background-color: #1e1e1e;
+  border: 1px solid #004d26;
+  color: #004d26;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -301,9 +301,9 @@ h2 {
 }
 
 .popup button:hover {
-  background-color: #fff;
-  border: 2px solid #7600bc;
-  color: #7600bc;
+  background-color: #1e1e1e;
+  border: 2px solid #004d26;
+  color: #004d26;
   display: block;
   font-weight: bolder;
   text-align: center;
@@ -333,9 +333,9 @@ fieldset {
 /* Buttons */
 
 button {
-  background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  background-color: #1e1e1e;
+  border: 1px solid #004d26;
+  color: #004d26;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -346,9 +346,9 @@ button {
 }
 
 button:hover {
-  background-color: #7600bc;
-  border: 1px solid #7600bc;
-  color: #fff;
+  background-color: #004d26;
+  border: 1px solid #004d26;
+  color: #1e1e1e;
   display: block;
   border-radius: 6px;
   text-align: center;
