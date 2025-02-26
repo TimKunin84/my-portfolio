@@ -315,13 +315,15 @@ input, textarea {
 }
 
 fieldset {
-  display: flexbox;
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the form contents */
   justify-content: center;  
   padding: 25px; 
-  margin: 0 auto;   
+  margin: 30px auto; /* Centers the entire form */
   border: thin solid white;
-  width: 50%;
+  width: 50%; /* Keeps the form width balanced */
+  max-width: 500px; /* Prevents excessive stretching */
 }
 
 
