@@ -312,15 +312,14 @@ input, textarea {
 }
 
 fieldset {
-  display: flex;
-  flex-direction: column; /* Keeps elements in a column */
-  align-items: center; /* Centers elements horizontally */
-  justify-content: center;
-  padding: 25px;
-  margin: 0 auto; /* Centers it like the recommendations section */
+  display: flexbox;
+  align-content: center;
+  justify-content: center;  
+  padding: 25px; 
+  margin-left: 50px; 
+  margin-right: 50px;   
   border: thin solid white;
-  width: 100%;
-  max-width: 800px; /* Ensures it doesn't get too wide */
+  width: 50%;
 }
 
 
